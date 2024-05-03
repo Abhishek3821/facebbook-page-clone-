@@ -1,0 +1,91 @@
+body{
+    margin: 0 !important;
+}
+.upper-box{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    /* margin-top: 5px; */
+    /* background-color: aqua; */
+}
+.fb{
+    width: 60vw;
+    font-size:x-large;
+    margin-top: 15px;
+    justify-content: end;
+}
+.fb > h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: #1c74f4;
+}
+.inputs{
+    width: 50vw;
+    display: flex;
+    text-align: center;
+    margin-top: 5px;
+    padding: 2px;
+    gap: 10px;
+}
+.email{
+    border-radius: 7px;
+    margin: 2.8px;
+}
+.inputs > button{
+    margin: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 7px;
+    background-color: #1c74f4;
+    color: white;
+}
+.center-body{
+    background-color: rgb(236, 236, 236);
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-box{
+    padding-left: 15px;
+    border-radius: 10px;
+    height: 45vh;
+    width: 37vw;
+    background-color: white;
+    /* border: 2px solid black;   */
+}
+.boxx{
+    padding: 18px;
+    width: 33vw;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(236, 236, 236);
+    margin-top: 10px;
+}
+.center-box > h3{
+    font-size:17pt;   
+}
+.center-box > p{
+    font-size: 13pt;
+    margin: 0 ;
+}
+.btn{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+}
+.btnn{
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: medium;
+} 
